@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*GNB메뉴 시작*/
+        nav#gnb {
+            border: 1px solid #aaa;
+        }
+
+        #gnb>ul#mainMenu {}
+
+        #gnb a {
+            width: 150px;
+            height: 48px;
+            font-size: 18px;
+            text-align: center;
+            /*가로 가운데 정렬*/
+            line-height: 48px;
+            /*세로 가운데 정렬*/
+            padding: 0 24px;
+            /*글자가 길어도 알아서 크기 조정해서 들어감*/
+            border: 1px solid #08f;
+            display: inline-block;
+            /*height 가 들어가게 됨*/
+        }
+
+        #gnb a:hover {
+            color: rgba(34, 34, 34, 0.62);
+            font-weight: bold;
+        }
+
+        #gnb ul.subMenu {
+            background-color: #fff;
+            position: absolute;
+            display: none;
+        }
+
+        /*서브메뉴 숨기기*/
+
+
+        /*GNB메뉴 끝*/

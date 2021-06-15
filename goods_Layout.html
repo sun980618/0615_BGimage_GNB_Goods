@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>상품 이미지 구현</title>
+
+    <link rel="stylesheet" href="style/style_common.css">
+
+    <style>
+        div#goods {
+            width: 240px;
+            height: 200px;
+            border: 1px dotted #000;
+            border-radius: 10px;
+            margin: 0 auto;
+
+            background-image: url(images/bg1.png);
+            background-repeat: no-repeat; /* bgrn + TAB */
+            -webkit-background-size: 184px 200px;
+           /* background-size: 120px ;*/
+        }
+
+        hgroup {
+            margin-top: 124px;
+            /*border: 1px solid #000;*/
+            background-color: rgba(255, 255, 255, 0.35);
+
+            /*position: relative;
+            top:110px;            margin-top: 124px;대신 써도 좋음 한글자일때는 마진쪽 추천*/
+
+        }
+
+        hgroup>* {
+            text-align: right; /* tar+TAB 글씨 오른쪽으로 가게하기*/
+            padding-right: 10px;
+        }
+
+        hgroup>h2 {
+             color: #8e5261;
+            margin-bottom: 14px; /*꽃다발이랑 말괄량이 거리두기*/
+        }
+
+        hgroup>h4 {
+            color: #3863d7;
+        }
+
+    </style>
+
+</head>
+
+<body>
+<div id="wrap">
+
+    <div id="goods"><!--점선 테두리-->
+
+      <!-- <img src="" alt="">--> <!--2차원 공간 차지함-->
+      <!--배경이미지&이미지 방법이 있는데 이걸 사용하면 이미지-->
+
+
+       <hgroup> <!--div 써도 됌-->
+           <h2>꽃다발</h2>
+           <h4>말괄량이</h4>
+        </hgroup>
+
+
+    </div>
+
+
+
+
+</div>
+</body>
+</html>
